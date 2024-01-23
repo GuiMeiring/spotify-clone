@@ -179,6 +179,59 @@ h1 {
 
 }
 
+.sidebar-footer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #fc466b, #3f5efb);
+    color: #b3b3b3;
+  }
+
+.sidebar-footer .sidebar-footer__content {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 18px;
+}
+
+.sidebar-footer .sidebar-footer__content .text {
+    color: #ffff;
+    padding: 3px 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar-footer .sidebar-footer__content .title {
+    font-size: 14px;
+    font-weight: 700;
+}
+.sidebar-footer .sidebar-footer__content .subtitle {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.sidebar-footer__button {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 9999px;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 12px;
+    border: 0px;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+
+  }
+  .sidebar-footer__button:hover {
+    margin: 10px;
+  }
 
 
 
