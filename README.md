@@ -42,11 +42,3 @@ O site possui uma barra de navegação lateral, onde é possível acessar as pá
 ## Contribuição
 
 Contribuições são sempre bem-vindas! Se você encontrou algum bug, tem alguma sugestão de melhoria ou deseja adicionar uma nova funcionalidade, fique à vontade para abrir uma issue ou enviar um pull request.
-
-## Contato
-
-Se tiver alguma dúvida ou precisar de ajuda, você pode entrar em contato comigo através do meu e-mail: guilhermemeiring08@gmail.com
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Para mais informações, consulte o arquivo [LICENSE](LICENSE).
