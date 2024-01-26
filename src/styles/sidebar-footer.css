@@ -7,6 +7,8 @@ h1 {
     color: #fff;
 }
 
+/* SIDEBAR */
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -227,6 +229,10 @@ h1 {
     border: 2px solid #878787;
 }
 
+/* FIM DO SIDEBAR */
+
+/* FOOTER */
+
 .disclaimer-premium {
     position: fixed;
     bottom: 0;
@@ -297,3 +303,5 @@ h1 {
     transform: scale(var(--transform-scale));
 
 }
+
+/* FIM DO FOOTER */
