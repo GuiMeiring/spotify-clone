@@ -22,16 +22,20 @@ O site possui uma barra de navegação lateral, onde é possível acessar as pá
 
 ## Configurção JSON Server (Back-end Fake)
 
-1. Instale o pacote utilizando o npm
+### Pré-requisitos
+Antes de começar, certifique-se de que você tenha o Node.js e o NPM (Node Package Manager) instalados em sua máquina. Você pode baixá-los e instalá-los a partir do site oficial: [Node.js](https://nodejs.org/).
+
+### Executando o JSON Server
+1. Instale o pacote utilizando o npm:
    ```bash
      npm install -g json-server@0.17.4
    ```
    Obs.: Digita json-server --version se a versão que tiver lá for maior ou igual a 1.0 quer dizer que você está usando uma versão alfa.
    Então, usa o comando npm uninstall -g json-server desinstalar e depois npm install -g json-server@0.17.4 para instalar uma versão especifica que não está na versão alfa
 
-3. Suba o servidor
+3. Suba o servidor:
    ```bash
-     json-server --watch api-artists/artists.json --port 3000
+     npx json-server --watch api-artists/artists.json --port 3000
    ```
 ## Tecnologias Utilizadas
 
